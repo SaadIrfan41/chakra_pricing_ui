@@ -7,7 +7,6 @@ import {
   Text,
   Button,
   HStack,
-  Icon,
   Stack,
 } from '@chakra-ui/react'
 
@@ -158,7 +157,7 @@ const Home = () => {
           </HStack>
         </Box>
       </Box>
-
+      {/* Features Section */}
       <Box
         textAlign={{ base: 'left', md: 'center' }}
         display={'flex'}
